@@ -16,6 +16,10 @@ def minion_game(string):
         
     else:
         print("Draw")
+        
+string = input()
+print(minion_game(string))
+
 
 
 
