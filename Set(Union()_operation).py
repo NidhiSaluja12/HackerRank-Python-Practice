@@ -1,0 +1,10 @@
+n1 = int(input())
+array1 = list(map(int, input().split()))
+n2 = int(input())
+array2 = list(map(int, input().split()))
+set1 = set(array1)
+set2 = set(array2)
+union1 = set1.union(set2)
+result = list(union1)
+print(len(result))
+
