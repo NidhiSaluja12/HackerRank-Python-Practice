@@ -1,12 +1,9 @@
 def simpleArraySum(ar):
     sum1 = 0
+    
     for i in ar:
         sum1+=i
     return sum1
-
-        
-        
-    # Write your code here
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
