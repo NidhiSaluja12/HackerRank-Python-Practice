@@ -1,6 +1,7 @@
 def solve(s):
     s1 = s.split(" ")
     l = []
+    
     for word in s1:
         if word.isdigit() == True:
             l.append(word)
