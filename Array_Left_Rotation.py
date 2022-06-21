@@ -4,6 +4,7 @@ import random
 import re
 import sys
 
+
 def rotateLeft(d, arr):
     
     return arr[d:]+arr[:d]
