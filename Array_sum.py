@@ -1,4 +1,5 @@
 
+
 def simpleArraySum(ar):
     sum1 = 0
     
